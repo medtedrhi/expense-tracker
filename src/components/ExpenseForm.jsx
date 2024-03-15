@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { AppContext } from '../context/AppContext';
+import { AppContext } from '../actions/AppActions';
 import { v4 as uuidv4 } from 'uuid';
 
 export default function ExpenseForm() {

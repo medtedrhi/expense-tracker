@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { AppContext } from '../context/AppContext'
+import { AppContext } from '../actions/AppActions'
 import UpdateBudget from './UpdateBudget'
 import ViewBudget from './ViewBudget';
 export default function Budjet(props) {

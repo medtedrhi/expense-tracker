@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AppContext } from '../context/AppContext'
+import { AppContext } from '../actions/AppActions'
 
 export default function Remaining() {
     const { expenses, budget } = useContext(AppContext)

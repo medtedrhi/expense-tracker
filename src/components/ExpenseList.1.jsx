@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import ExpenseItem from './ExpenseItem ';
-import {AppContext} from '../context/AppContext'
+import {AppContext} from '../actions/AppActions'
 export default function ExpenseList() {
     const { expenses } = useContext(AppContext);
     // const expenses = [

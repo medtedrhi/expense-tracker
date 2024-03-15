@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import {AppContext} from '../context/AppContext'
+import {AppContext} from '../actions/AppActions';
 import { TiDelete } from 'react-icons/ti';
 export default function ExpenseItem(props) {
     const { dispatch } = useContext(AppContext)

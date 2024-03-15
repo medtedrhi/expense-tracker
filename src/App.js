@@ -5,7 +5,7 @@ import Remaining from './components/Remaining';
 import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList.1';
 import ExpenseForm from './components/ExpenseForm';
-import {AppProvider} from './context/AppContext.jsx'
+import {AppProvider} from './actions/AppActions'
 
 
 

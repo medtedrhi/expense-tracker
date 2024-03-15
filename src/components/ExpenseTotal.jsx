@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import {AppContext} from '../context/AppContext'
+import {AppContext} from '..//actions/AppActions'
 export default function ExpenseTotal () {
     const { expenses } = useContext(AppContext)
     let expensesTotal = expenses.reduce((total, expense)=> total + expense.cost,0 )
